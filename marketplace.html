@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="marketplace.css" />
+    <link rel="icon" href="img/icon.svg" />
+    <title>Pro taper </title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Pro taper market</h1>
+      <div class="cart">
+        <img src="img/shop.svg" />
+        <div class="cart-in">
+          <div class="cart-block">
+            <h5 class="cart-title">Article ajouter:</h5>
+            <button class="cart-button" onclick="limpar()">X</button>
+          </div>
+          <ul class="cart-list" id="cartList"></ul>
+          <p class="result" id="result"></p>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="products" id="div_produtos"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
